@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+form * {margin-top: 1vh;}
+
+#denun {
+    background-color: aquamarine;
+    border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" type="text/html; charset=UTF-8">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" media="all">
+        <link rel="icon" href="{% static 'Favicon.png' %}">
+        <title>Denuncias | Elda</title>
+    </head>
+    <body>
+        <h1>Denuncia</h1>
+        <form action="/aqui/" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form }}
+            {{ uploader }}
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

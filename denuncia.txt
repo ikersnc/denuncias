@@ -1,0 +1,9 @@
+<div>
+    <label for="id_denuncia">Denuncia:</label>
+    <textarea name="denuncia" cols="40" rows="10" placeholder="Explica aquí tu denuncia" maxlength="200" required id="id_denuncia">
+hola</textarea>
+    
+    
+      
+    
+</div>
